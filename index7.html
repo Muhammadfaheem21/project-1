@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <link rel="stylesheet" href="index7.css">
+        <script>
+        $( function() {
+        $( "#tabs" ).tabs();
+        } );
+       </script>
+       <script>
+        $( function() {
+        $( "#draggable" ).draggable();
+        } );
+        </script>
+        <script>
+            $( function() {
+              $( "#selectable" ).selectable();
+            } );
+        </script>
+         <script>
+            $( function() {
+              var availableTags = [
+                "ActionScript",
+                "AppleScript",
+                "Asp",
+                "BASIC",
+                "C",
+                "C++",
+                "Clojure",
+                "COBOL",
+                "ColdFusion",
+                "Erlang",
+                "Fortran",
+                "Groovy",
+                "Haskell",
+                "Java",
+                "JavaScript",
+                "Lisp",
+                "Perl",
+                "PHP",
+                "Python",
+                "Ruby",
+                "Scala",
+                "Scheme"
+              ];
+              $( "#tags" ).autocomplete({
+                source: availableTags
+              });
+            } );
+            </script>
+    </head>
+    <body style="margin: 0;">
+        <div class="wrap">
+            <div class="header">
+                <div class="farm">
+                    <h1><b><strong>Farm <span style="color: black;">Fund</span></strong></b></h1>
+                </div>
+                <div class="head">
+                    <ul class="hd">
+                        <li class="user"><a href="https://www.youtube.com/"> <i class="fa fa-user"> </i>  LOGIN/REGISTER  </a></li>
+                        <li class="user"><a href="https://www.youtube.com/"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li class="user"><label for="tags">Search: </label><input id="tags"></li>
+                        <li class="user"><a href="https://www.youtube.com/"><i class="fa bar fa-bars"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="wrap1">
+            <div class="iron">
+                <div class="man">
+                    <p class="retail">Retailers <span style="color: black;"> Directory</span></p>
+                    <p class="search">SEARCH FOR PRODUCERS AND RETAILERS ON WORLD WIDE BASIS</p>
+                </div>
+                <div id="draggable" class="man1">
+                    <img src="Images/plantpic.png" class="gardan">
+                </div>
+            </div>
+            <div class="jorge">
+                <i class="fa left fa-arrow-left"></i><i class="fa right fa-arrow-right"></i>
+            </div>
+            <div class="Parker">
+                <ul class="pink">
+                    <li class="pink1"><a href="https://www.youtube.com/" class="filter">Filter By keyword</a></li>
+                    <li class="pink1"><a href="https://www.youtube.com/" class="filter"><i class="fa map  fa-map-marker" style="color: #ea3675;"></i> Location</a></li>
+                    <li class="pink1"><a href="https://www.youtube.com/" class="filter">choose a specially</a></li>
+                    <li class="pink1"><a href="https://www.youtube.com/" class="filter">products</a></li>
+                    <li class="pink1"><a href="https://www.youtube.com/" class="filter" style="border: none; background-color: black; color: white;">search</a></li>
+                </ul>
+            </div>
+            <div class="btn">
+                <a href="https://www.youtube.com/"><button class="more">More info</button></a> <a href="https://www.youtube.com/"><button  class="contact">Contact Us</button></a>
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="step1">
+                <div class="hero">
+                    <h1><b>About Farm Fund</b>  <img src="Images/plantpic4.png"> </h1>
+                    <p style="font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="https://www.youtube.com/"><button> Read More</button></a>
+                </div>
+                <div class="hero1">
+                    <img src="Images/plantpic1.png" class="plant">
+                </div>
+            </div>
+        </div>
+        
+        <div class="step2">
+            <div class="spider1">
+                <img src="Images/plantpic2.png" >
+            </div>
+            <div class="spider2">
+                <h1>Our Services <img src="Images/plantpic4.png"> </h1>
+                <div class="super">
+               <div class="super1">
+                <p style="font-size: 15px;"><b>Products</b></p><br>
+                <img src="Images/plantpic6.png"><br>
+                <p>tend to repeat predefined chunks as necessary, making this the first true</p>
+               </div>
+              <div class="super1">
+                <p style="font-size: 15px;"><b>Retailer</b></p><br>
+                <img src="Images/plantpic5.png"><br>
+                <p>tend to repeat predefined chunks as necessary, making this the first true</p>
+               </div>
+                <div class="super1">
+                <p style="font-size: 15x;"><b>Agriculture</b></p><br>
+                <img src="Images/plantpic6.png"><br>
+                <p>tend to repeat predefined chunks as necessary, making this the first true</p>
+                </div>
+                </div>
+                <a href="https://www.youtube.com/"><button>Read More</button></a>
+            </div>
+        </div>
+        <div class="equal">
+            <h1><b><strong> Retailers Categories</b></strong> <img src="Images/plantpic4.png"> </h1>
+            <p style="font-size: 13px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="wrap5">
+        <div id="tabs">
+            <ul class="zero" id="asd">
+                <li class="name"><a href="#tabs-1" style="background-color: #ea3675; color: white; padding: 9px 21px;" > All</a></li>
+                <li class="name"><a href="#tabs-2">Milk</a></li>
+                <li class="name"><a href="#tabs-3"> Fruit</a></li>
+                <li class="name"><a href="#tabs-4"> Land</a></li>
+                <li class="name"><a href="#tabs-5"> Animal</a></li>
+            </ul>
+            <div id="tabs-1">
+                <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+              </div>
+              <div id="tabs-2">
+                <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+              </div>
+              <div id="tabs-3">
+                <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+                <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+              </div>
+              <div id="tabs-4">
+                <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+              </div>
+              <div id="tabs-5">
+                <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+                <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+              </div>
+            </div>
+        </div>
+            <div class="alpha" id="selectable">
+                <div class="zero1">
+                    <img src="Images/Untitied1.jpg">
+                    <p><b>CARROT</b></p>
+                </div>
+                <div class="zero1">
+                    <img src="Images/Untitled-2.jpg">
+                    <p><b>TOMATO</b></p>
+                </div>
+                <div class="zero1">
+                    <img src="Images/Untitled-3.jpg">
+                    <p><b>VEGETABLE</b></p>
+                </div>
+                <div class="zero1">
+                    <img src="Images/Untitled-4.jpg">
+                    <p><b>TREE MAKE</b></p>
+                </div>
+            </div>    
+            <div class="alpha" id="selectable">
+                <div class="zero1">
+                    <img src="Images/Untitled-2.jpg">
+                    <p><b>TOMATO</b></p>
+                </div>
+                <div class="zero1">
+                    <img src="Images/Untitied1.jpg">
+                    <p><b>CARROT</b></p>
+                </div>
+                <div class="zero1">
+                    <img src="Images/Untitled-4.jpg">
+                    <p><B>TREE MAKER</B></p>
+                </div>
+                <div class="zero1">
+                    <img src="Images/Untitled-3.jpg">
+                    <p><B>VEGETABLE</B></p>
+                </div>
+            </div>
+            <div class="more1">
+                <a href="https://www.youtube.com/"><button class="more">Read More</button></a>
+            </div>
+        </div> 
+        <div class="wrap">
+        <div class="current1">
+            <div class="curr">
+            <h1>SUBCRIBE OUR NEWSLETTER</h1>
+            <input  value="" id="abc"  placeholder="ENTER YOUR EMAIL ADDRESS"><br><br><br>
+            <a href="https://www.youtube.com/"><button>SUBMIT NOW</button></a>
+            </div>
+        </div>
+        <div class="classic">
+            <h1><b>Contact us</b> <img src="Images/plantpic4.png"></h1>
+            <input type="" value="" id="xyz" style="margin-top: 40px;" placeholder="Name"><br><br>
+            <input type="" value="" id="xyz" placeholder="Phone Number"><br><br>
+            <input type="" value="" id="xyz" placeholder="Email Adress"><br><br>
+            <input type="" value="" id="xy1" placeholder="Message"><br>
+            <a href="https://www.youtube.com/"><button>SEND</button></a>
+        </div>
+        </div>
+        <div class="back">
+        <div class="wrap5">
+            <div class="footer1">
+            <h1 style="font-family: sans-serif;">Farm Faund</h1></div>
+            <div class="footer">
+                <div class="collect">
+                    <ul class="funny">
+                        <li class="fun"><a href="https://lexidigitalstudio.com/" class="link" style="margin-left: 6px;"><span><i class="fa alp fa-map-marker icon" ></i></span><span>Locations</span></a></li>
+                        <li class="fun"><a href="https://lexidigitalstudio.com/" class="link"><span><i class="fa alp fa-phone icon" ></i></span><span>033454665767</span></a></li>
+                        <li class="fun"><a href="https://lexidigitalstudio.com/" class="link"></span><i class="fa alp fa-envelope icon" style="font-size: 19px;"></i></span><span>demo@gmail.com</span></a></li>
+                    </ul>
+                </div>
+                <div class="collect2">
+                    <p style="font-size: 17px;"><b>Useful Link</b></p>
+                    <ul class="funny1" style="text-decoration: #ea3675;">
+                        <li class="fun1">humor.or</li>
+                        <li class="fun1">randomised</li>
+                        <li class="fun1">words which</li>
+                        <li class="fun1">dont looks even</li>
+                        <li class="fun1">slighty</li>
+                        <li class="fun1">believable.if</li>
+                    </ul>
+                </div>
+                <div class="collect3">
+                    <p style="font-size: 17px;"><b>Menus</b></p>
+                    <ul class="funny1">
+                        <li class="fun1">humor.or</li>
+                        <li class="fun1">randomised</li>
+                        <li class="fun1">words which</li>
+                        <li class="fun1">dont looks even</li>
+                        <li class="fun1">slighty</li>
+                        <li class="fun1">believable.if</li>
+                    </ul>
+                </div>
+                <div class="collect4">
+                    <p style="font-family: sans-serif; font-size: 17px;"><b>Follow Us</b></p>
+                    <span class="fa-stack">
+                        <a href="https://lexidigitalstudio.com/">
+                        <i class="fa fa-circle-thin fa-stack-2x" style="color: white;"></i>
+                        <i class="fa fa-twitter fa-stack-1x" style="color: white;"></i></a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="https://lexidigitalstudio.com/">
+                        <i class="fa fa-circle-thin fa-stack-2x" style="color: white;"></i>
+                        <i class="fa fa-facebook fa-stack-1x" style="color: white;"></i></a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="https://lexidigitalstudio.com/">
+                        <i class="fa fa-circle-thin fa-stack-2x" style="color: white;"></i>
+                        <i class="fa fa-youtube fa-stack-1x" style="color: white;"></i></a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="https://lexidigitalstudio.com/">
+                        <i class="fa fa-circle-thin fa-stack-2x" style="color: white;"></i>
+                        <i class="fa fa-instagram fa-stack-1x" style="color: white;"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>    
+       
+        <div class="wrap5">
+        <div class="last">
+            <p style="margin: 0%;">Copyright 2019 All Right Reserved By Free  html Templates</p>
+        </div>
+        </div>
+    </div>
+    
+     
+    </body>
+</html>

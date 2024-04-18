@@ -1,0 +1,366 @@
+.wrap{
+    width: 976px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    padding: 13px 0px;
+}
+.farm{
+    width: 81%;
+    font-family: sans-serif;
+    color: #ea3675;
+}
+.head{
+    width: 70%;
+    margin: 0;
+    padding: 12px 0px;
+}
+.hd{
+    padding: 0;
+    list-style-type: none;
+}
+.user{
+    float: left;
+    margin-left: 15px;
+    text-align: right;
+}
+.user a{
+    text-decoration: none;
+    text-align: right;
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.bar{
+    font-size: 29px;
+    margin-top: -7px;
+}
+.wrap1{
+    width: 976px;
+    margin: 0 auto;
+}
+.iron{
+    display: flex;
+    padding: 60px 0px;
+}
+.man{
+    width: 50%;
+    float: left;
+    margin-top: 103px;
+}
+.man1{
+    width: 50%;
+    float: right;
+}
+.retail{
+    color: #ea3675;
+    font-size: 60px;
+   font-family: sans-serif;
+}
+.search{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.gardan{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.pink{
+   list-style-type: none;
+   margin-top: 56px;
+   padding: 0px;
+   overflow: hidden;
+  
+}
+.pink1{
+   float: left;
+    
+}
+.pink1 a{
+    display: block;
+    text-decoration: none;
+    background-color: #f8faf9 ;
+    padding: 11px 27px;
+    border-right: 1px solid black;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.map{
+    margin-right: 10px;
+}
+.left{
+    padding: 13px;
+    background-color: black;
+    margin-right: 10px;
+    color: white;
+    border-radius: 55px;
+}
+.right{
+    padding: 13px;
+    background-color: #ea3675;
+    color: white;
+    border-radius: 55px;
+}
+.btn{
+    margin-top: 50px;
+}
+.more{
+    background-color: black;
+    border: none;
+    padding: 9px 19px;
+}
+.contact{
+    background-color: #ea3675;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+  
+}
+.more a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.step1{
+    display: flex;
+    margin-top: 110px;
+    
+}
+.hero{
+    float: left;
+    width: 50%;
+    font-family: sans-serif;
+    line-height: 2;
+    padding: 128px 0px;
+}
+.hero1{
+    width: 61%;
+    font-family: sans-serif;
+    border: 1px solid black;
+    border-radius: 31px;
+}
+.plant{
+    padding: 124px 123px;
+}
+.hero button{
+    border: none;
+    padding: 10px 18px;
+    background-color: black;
+    margin-top: 70px;
+    border-radius: 5px;
+    color: white;
+}
+.step2{
+    display: flex;
+   margin-top: 170px;
+}
+.spider1{
+    width: 53%;
+    float: left;
+}
+.spider2{
+    width: 41%;
+    float: left
+    }
+.super{
+    display: flex;
+    margin-top: 90px;
+}
+.super1{
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px;
+    width: 22%;
+    line-height: 2;
+    margin-right: 49px;
+}
+.spider2 button{
+    margin-top: 126px;
+    background-color: black;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+
+}
+.equal {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 180px;
+}
+.zero{
+    list-style-type: none;
+    display: flex;
+    overflow: hidden;
+    padding: 42px 258px;
+    margin-left: -71px;
+}
+.name{
+    float: left;
+    padding: 8px 36px 
+}
+.name a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.alpha{
+    display: flex;
+    padding: 11px 76px 
+}
+.zero1{
+    width: 21%;
+    padding: 19px 27px;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 10px;
+    margin-left: 25px;
+    font-family: sans-serif;
+}
+.more1{
+    text-align: center;
+    margin-top: 55px;
+}
+.more{
+    padding: 13px 20px;
+    color : white;
+    background-color: black;
+    border-radius: 5px;
+}
+.current1{
+    padding: 250px 0px;
+    text-align: center;
+    font-family: sans-serif;
+}
+#abc{
+    width: 48%;
+    padding: 18px 9px;
+    border-radius: 10px;
+    border: solid black 1px;
+   
+}
+.current1 button{
+    border: 0;
+    padding: 24px 28px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.classic{
+    text-align: center;
+    font-family: sans-serif;
+}
+#xyz{
+    width: 50%;
+    border-radius: 21px;
+    margin-top: 17px;
+    border: solid black 1px;
+    padding: 10px;
+}
+#xy1{
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 17px;
+    border: solid black 1px;
+    padding: 65px 7px;
+}
+.classic button{
+    margin-top: 50px;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 14px 37px;
+    border-radius: 5px;
+}
+.wrap5{
+    width: 976px;
+    margin: 0 auto;
+}
+.footer{
+    display: flex;
+    color: white;
+    padding: 8px 0px 65px 
+}
+.collect{
+    float: left;
+    width: 25%;
+    border-right: solid white 1px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.funny{
+    padding: 0;
+}
+.alp{
+    padding: 7px 14px;
+    font-size: 26px;
+    color: white;
+}
+.fun{
+    list-style-type: none;
+}
+.collect2{
+    float: left;
+    width: 28%;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 0px 33px;
+}
+.collect3{
+    float: left;
+    width: 25%;
+    font-family: sans-serif;
+    font-size: 13px;
+    border-right: solid white 1px;
+}
+.collect4{
+    float: left;
+    width: 22%;
+    padding: 0px 35px;
+}
+.back{
+    background-color: #201f20;
+    margin-top: 200px;
+}
+.footer1{
+    color: white;
+    padding: 75px 0px 0px;
+}
+.funny1{
+    padding: 0px 17px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.fun1{
+    line-height: 20px;
+}
+.last{
+    text-align: center;
+    background-color: #201f20;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    border-top: solid 1px white;
+}
+#feedback { font-size: 1.4em; }
+#selectable .ui-selecting { background: #FECA40; }
+#selectable .ui-selected { background: #F39814; color: white; }
+#asd{
+   
+    width: 37%;
+   background-color: white;
+   border: none;
+}
